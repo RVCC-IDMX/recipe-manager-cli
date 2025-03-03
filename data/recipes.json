@@ -7,8 +7,8 @@
     "ingredients": [
       {
         "name": "Ground Beef",
-        "amount": 500,
-        "unit": "g"
+        "amount": 1,
+        "unit": "lb"
       },
       {
         "name": "Onion",
@@ -22,13 +22,13 @@
       },
       {
         "name": "Tomato Sauce",
-        "amount": 500,
-        "unit": "ml"
+        "amount": 2,
+        "unit": "cups"
       },
       {
         "name": "Spaghetti",
-        "amount": 400,
-        "unit": "g"
+        "amount": 1,
+        "unit": "lb"
       }
     ],
     "steps": [
@@ -59,8 +59,8 @@
       },
       {
         "name": "Parmesan Cheese",
-        "amount": 50,
-        "unit": "g"
+        "amount": 1.75,
+        "unit": "oz"
       },
       {
         "name": "Caesar Dressing",

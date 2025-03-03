@@ -12,7 +12,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataPath = path.join(__dirname, '../data/recipes.json');
 const dataDir = path.join(__dirname, '../data');
 
-// Sample recipes to populate the file
+// Sample recipes to populate the file (with imperial units)
 const defaultRecipes = [
   {
     id: 1678972583949,
@@ -20,11 +20,11 @@ const defaultRecipes = [
     cookingTime: 45,
     servings: 4,
     ingredients: [
-      { name: "Ground Beef", amount: 500, unit: "g" },
+      { name: "Ground Beef", amount: 1, unit: "lb" },
       { name: "Onion", amount: 1, unit: "medium" },
       { name: "Garlic", amount: 2, unit: "cloves" },
-      { name: "Tomato Sauce", amount: 500, unit: "ml" },
-      { name: "Spaghetti", amount: 400, unit: "g" }
+      { name: "Tomato Sauce", amount: 2, unit: "cups" },
+      { name: "Spaghetti", amount: 1, unit: "lb" }
     ],
     steps: [
       "Chop the onion and garlic finely",
@@ -44,7 +44,7 @@ const defaultRecipes = [
     ingredients: [
       { name: "Romaine Lettuce", amount: 1, unit: "head" },
       { name: "Croutons", amount: 1, unit: "cup" },
-      { name: "Parmesan Cheese", amount: 50, unit: "g" },
+      { name: "Parmesan Cheese", amount: 1.75, unit: "oz" },
       { name: "Caesar Dressing", amount: 3, unit: "tbsp" }
     ],
     steps: [
